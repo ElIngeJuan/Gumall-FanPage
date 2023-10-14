@@ -1,0 +1,135 @@
+@font-face {
+    font-family: principalfont;
+    src: url(../Staatliches/Staatliches-Regular.ttf);
+}
+
+h2{
+    font-family: principalfont;
+}
+
+p{
+    font-family: principalfont;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.slides img{
+    height: 780px;
+    
+}
+
+
+header{
+    display: flex;
+    background-color: #80C5D5 ;
+    justify-content: start;
+    align-items: center;
+    padding-right: 20px;
+    height: 123px;
+    width: 100%;
+    color: #ffffff;
+    position: fixed ;
+    top: 0; 
+    z-index: 100;
+}
+header img{
+    width: 162px;
+    height: 95px;
+    padding-left: 25px;
+}
+
+header ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header ul li {
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    font-family: principalfont;
+}
+
+header ul li a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+#Personajes{
+    padding: 40px;
+}
+
+.gumball-image img{
+    height: 341px;
+    width:  260px;
+}
+
+.col{
+    padding: 30px;
+}
+
+.box{
+    border-color: black;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+.box h2{
+    text-align: center;
+    align-items: center;
+}
+
+.box img{
+    width: 260px;
+    height: 341px;
+}
+
+.box {
+    font-family: principalfont;
+}
+
+.Personajes{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.col{
+    margin:10px;
+}
+.Curiosidades1{
+    padding: 40px;
+}
+
+.Curiosidades{
+    width: 500px;
+}
+
+.Curiosidades summary{
+    background-color: #D9C4A5;
+    list-style: none;
+    text-align: center;
+    height: 78px;
+    border: black 1.5px solid;
+    vertical-align: middle;
+    padding: 20px;
+    font-family: principalfont;
+    width: 100%;
+
+}
+
+
+.Curiosidades img{
+    width: 440px;
+    height: 355;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.Curiosidades p{
+    box-shadow: 3px 3px 4px black;
+    margin-right: 20px;
+}
