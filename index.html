@@ -11,9 +11,9 @@
 </head>
 <body>
     <header > 
-      <nav class="navbar navbar-expand-lg" style="background-color:#80C5D5 ;">
+      <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#80C5D5 ;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#main">
             <img src="Images/showlogo.webp" width="192" height="110">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse list" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Personajes">Personajes</a>
+                <a class="nav-link" href="#Personajes">Personajes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Curiosidades">Curiosidades</a>
@@ -39,18 +39,32 @@
       </nav>
     </header>
     <main id="main">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade " >
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner slides">
-          <div class="carousel-item active">
+          <!-- Imágenes para dispositivos grandes (desktop) -->
+          <div class="carousel-item active d-none d-md-block">
             <img src="Images/schoolgumball.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="Images/familygumball.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item d-none d-md-block">
+            <img src="Images/friends.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item d-none d-md-block">
             <img src="Images/gumballandpenny.jpg" class="d-block w-100" alt="...">
           </div>
+      
+          <!-- Imágenes para dispositivos pequeños (móviles) -->
+          <div class="carousel-item active d-md-none">
+            <img src="Images/familycarrusel.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item d-md-none">
+            <img src="Images/gand.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item  d-md-none">
+            <img src="Images/lastimage.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
+      
+        <!-- Controles del carrusel -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -60,6 +74,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      
       
       <h2 id="Personajes">Personajes</h2>
       <div class="container">
