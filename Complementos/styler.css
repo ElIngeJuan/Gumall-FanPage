@@ -21,43 +21,11 @@ body{
     
 }
 
-
-header{
-    display: flex;
-    background-color: #80C5D5 ;
-    justify-content: start;
-    align-items: center;
-    padding-right: 20px;
-    height: 123px;
-    width: 100%;
-    color: #ffffff;
-    position: fixed ;
-    top: 0; 
-    z-index: 100;
-}
-header img{
-    width: 162px;
-    height: 95px;
-    padding-left: 25px;
+.list{
+    font-family: principalfont
 }
 
-header ul{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
 
-header ul li {
-    padding: 10px;
-    list-style: none;
-    font-size: 20px;
-    font-family: principalfont;
-}
-
-header ul li a{
-    text-decoration: none; 
-    color: inherit;
-}
 
 #Personajes{
     padding: 40px;
@@ -100,36 +68,12 @@ header ul li a{
 .col{
     margin:10px;
 }
-.Curiosidades1{
+.Curiosidades{
     padding: 40px;
 }
 
-.Curiosidades{
-    width: 500px;
-}
 
-.Curiosidades summary{
-    background-color: #D9C4A5;
-    list-style: none;
-    text-align: center;
-    height: 78px;
-    border: black 1.5px solid;
-    vertical-align: middle;
-    padding: 20px;
-    font-family: principalfont;
-    width: 100%;
-
-}
-
-
-.Curiosidades img{
+.imagen img{
     width: 440px;
-    height: 355;
-    margin-right: 0px;
-    padding: 0px;
-}
-
-.Curiosidades p{
-    box-shadow: 3px 3px 4px black;
-    margin-right: 20px;
+    height: 355px;
 }

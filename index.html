@@ -10,16 +10,33 @@
     <link rel="icon" href="Images/HEAD_GUMBALL.webp">
 </head>
 <body>
-    <header> 
-        <a href="#main"><img src="Images/showlogo.webp" alt=""></a>
-        <nav class="row">
-            <ul>
-                <li><a href="#Personajes">Personajes</a></li>
-                <li><a href="#curio">Curiosidades</a></li>
-                <li>Teorias</li>
-                <li>Acerca de</li>
+    <header > 
+      <nav class="navbar navbar-expand-lg" style="background-color:#80C5D5 ;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Images/showlogo.webp" width="192" height="110">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse list" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Personajes">Personajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Curiosidades">Curiosidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Teorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <main id="main">
       <div id="carouselExampleFade" class="carousel slide carousel-fade " >
@@ -90,64 +107,80 @@
          
       <hr>
 
-      <h2 class="Curiosidades1">Curiosidades</h2>
+      <h2 class="Curiosidades" id="Curiosidades">Curiosidades</h2>
       <div class="container">
-        <div class="row">
-          <details class="Curiosidades">
-            <summary>Referencia a The Last Of Us</summary>
-            <div class ="container">
-              <div class="row">
-                <div class ="col">
-                  <img src="Images/chasqueador.jpg" alt="">
-                </div>
-                <div class="col">
-                  <p>
-                  En el episodio 25 de la temporada 4 titulado <a href="https://www.youtube.com/watch?v=u9bflv-txfQ">"El Parasito"</a>
-                  En este episodio de "El Increíble Mundo de Gumball", los hermanos Gumball y Darwin descubren que su hermana Anais ha hecho una nueva amiga, pero comienzan a sospechar que esta amiga la está utilizando. Deciden espiar a Anais para averiguar la verdad.
-                  Durante su investigación, Gumball y Darwin encuentran "pruebas" que los llevan a creer que la nueva amiga de Anais no es lo que parece. En un intento de advertir a Anais, se enfrentan a ella en la escuela y le explican que su amiga es como un parásito que primero la utiliza para obtener cosas y luego toma control de su mente. Gumball incluso menciona una analogía con un videojuego de zombies, "The Last Of Us," donde su hermano Darwin se convierte en un chasqueador, una criatura infectada del juego.
-                  Este episodio parece hacer una divertida referencia al popular videojuego "The Last Of Us" y a la idea de que la nueva amiga de Anais podría ser manipuladora o perjudicial.</div>
-                  </p>
-                </div>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Referencia a The Last Of Us
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body info">
+              <div class ="container">
+                <div class="row">
+                  <div class ="col imagen">
+                    <img src="Images/chasqueador.jpg" alt="">
+                  </div>
+                  <div class="col">
+                    <p>
+                    En el episodio 25 de la temporada 4 titulado <a href="https://www.youtube.com/watch?v=u9bflv-txfQ">"El Parasito"</a>
+                    En este episodio de "El Increíble Mundo de Gumball", los hermanos Gumball y Darwin descubren que su hermana Anais ha hecho una nueva amiga, pero comienzan a sospechar que esta amiga la está utilizando. Deciden espiar a Anais para averiguar la verdad.
+                    Durante su investigación, Gumball y Darwin encuentran "pruebas" que los llevan a creer que la nueva amiga de Anais no es lo que parece. En un intento de advertir a Anais, se enfrentan a ella en la escuela y le explican que su amiga es como un parásito que primero la utiliza para obtener cosas y luego toma control de su mente. Gumball incluso menciona una analogía con un videojuego de zombies, "The Last Of Us," donde su hermano Darwin se convierte en un chasqueador, una criatura infectada del juego.
+                    Este episodio parece hacer una divertida referencia al popular videojuego "The Last Of Us" y a la idea de que la nueva amiga de Anais podría ser manipuladora o perjudicial.</div>
+                    </p>
+                  </div>
+              </div>
             </div>
-          </details>         
+          </div>
         </div>
-
-        <div class="row">
-          <details class="Curiosidades" id="curio">
-            <summary>Referencia a Death note</summary>
-            <div class ="container">
-              <div class="row">
-                <div class ="col">
-                  <img src="Images/deathnote.jpg" alt="">
-                </div>
-                <div class="col">
-                  <p>
-                    En el episodio 14 de la temporada 6 titulado <a href="https://youtu.be/Zv00S0bqxFs?t=134">"The Shippening"</a>, hay una clara referencia al anime "Death Note." En este episodio, Gumball y Darwin descubren un extraño libro llamado "The Shippening," que les permite escribir los nombres de las personas para que se emparejen sentimentalmente. Esto es una referencia directa al concepto del "Death Note" en la serie "Death Note," donde se puede escribir el nombre de una persona en un cuaderno para causar su muerte.
-                  </p>
-                </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Referencia a Death Note
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class ="container">
+                <div class="row">
+                  <div class ="col imagen">
+                    <img src="Images/deathnote.jpg" alt="">
+                  </div>
+                  <div class="col">
+                    <p>
+                      En el episodio 14 de la temporada 6 titulado <a href="https://youtu.be/Zv00S0bqxFs?t=134">"The Shippening"</a>, hay una clara referencia al anime "Death Note." En este episodio, Gumball y Darwin descubren un extraño libro llamado "The Shippening," que les permite escribir los nombres de las personas para que se emparejen sentimentalmente. Esto es una referencia directa al concepto del "Death Note" en la serie "Death Note," donde se puede escribir el nombre de una persona en un cuaderno para causar su muerte.
+                    </p>
+                  </div>
+              </div>
             </div>
-          </details>         
+          </div>
         </div>
-
-        <div class="row">
-          <details class="Curiosidades">
-            <summary>Referencia a el Exorcista</summary>
-            <div class ="container">
-              <div class="row">
-                <div class ="col">
-                  <img src="Images/theexorcist.jpg" alt="">
-                </div>
-                <div class="col">
-                  <p>
-                    En el episodio 12 de la Primera Temporada de "El Increíble Mundo de Gumball," titulado "La Fantasma" Carrie se siente deprimida porque no puede comer al ser una fantasma, por lo que Darwin le ofrece entrar en el cuerpo de Gumball. Ella empieza a comer impulsivamente comida de la basura hasta que Gumball se desmaya, por lo que Gumball trata de volver a ser él mismo e intentar convencer a Carrie de dejar su cuerpo  En una escena del episodio, Gumball (poseído por Carrie) gira su cabeza en el techo antes de comerse un sándwich de Anton, lo que es una clara referencia a la película de terror "El Exorcista."
-                  </p>
-                </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Referencia A EL EXORCISTA
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class ="container">
+                <div class="row">
+                  <div class ="col imagen">
+                    <img src="Images/theexorcist.jpg" alt="">
+                  </div>
+                  <div class="col">
+                    <p>
+                      En el episodio 12 de la Primera Temporada de "El Increíble Mundo de Gumball," titulado "La Fantasma" Carrie se siente deprimida porque no puede comer al ser una fantasma, por lo que Darwin le ofrece entrar en el cuerpo de Gumball. Ella empieza a comer impulsivamente comida de la basura hasta que Gumball se desmaya, por lo que Gumball trata de volver a ser él mismo e intentar convencer a Carrie de dejar su cuerpo  En una escena del episodio, Gumball (poseído por Carrie) gira su cabeza en el techo antes de comerse un sándwich de Anton, lo que es una clara referencia a la película de terror "El Exorcista."
+                    </p>
+                  </div>
+              </div>
             </div>
-          </details>         
+          </div>
         </div>
       </div>
-      
-    
+    </div>
     </main>
     <footer>
 
