@@ -11,6 +11,7 @@ p{
     font-family: principalfont;
 }
 
+
 body{
     padding: 0;
     margin: 0;
@@ -22,7 +23,13 @@ body{
 }
 
 .list{
-    font-family: principalfont
+    font-family: principalfont;
+    font-size: 24px;
+    
+}
+
+.list ul li a{
+    color: white;
 }
 
 
@@ -74,6 +81,10 @@ body{
 
 
 .imagen img{
-    width: 440px;
+    width: 100%;
     height: 355px;
+}
+
+.texto p{
+    font-size: 20px;
 }
