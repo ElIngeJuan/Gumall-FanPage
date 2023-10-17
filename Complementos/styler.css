@@ -119,7 +119,7 @@ body{
 }
 
 .form-register {
-    width: 400px;
+    width: 100%;
     background: white;
     padding: 30px;
     margin: auto;
