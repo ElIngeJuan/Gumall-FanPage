@@ -19,9 +19,17 @@ body{
 
 .slides img{
     height: 780px;
+
     
 }
 
+
+.image-zoom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 .list{
     font-family: principalfont;
     font-size: 24px;
